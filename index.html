@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faux Poste LinkedIn</title>
+    <style>
+        body {
+            background-color: #f3f2ef;
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .post-container {
+            background-color: #ffffff;
+            border: 1px solid #e1e9ee;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .post-header {
+            display: flex;
+            align-items: center;
+            padding: 16px;
+        }
+        .profile-pic {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #profil-div p {
+            padding: 0px;
+            margin-left: 10px;
+        }
+
+        .profile-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #0a66c2;
+            margin: 0;
+        }
+        .profile-title {
+            font-size: 14px;
+            color: #666666;
+            margin: 2px;
+            margin-top: 5px;
+        }
+        .post-time {
+            font-size: 12px;
+            color: #999999;
+        }
+        .post-content {
+            padding: 0 16px 16px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #333333;
+        }
+        .post-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .post-actions {
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #e1e9ee;
+            padding: 8px 0;
+        }
+        .action-btn {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #666666;
+            cursor: pointer;
+        }
+        .action-btn:hover {
+            color: #0a66c2;
+        }
+        .action-btn img {
+            width: 20px;
+            height: 20px;
+            margin-right: 6px;
+        }
+
+        .ping {
+            color: #0a66c2;
+        }
+    </style>
+</head>
+<body>
+    <div class="post-container">
+        <div class="post-header">
+            <img class="profile-pic" src="photo.webp" alt="Photo de profil" />
+            <div id="profil-div" class="profile-info">
+                <p class="profile-name">Lucas Cordeilla</p>
+                <p class="profile-title">Recherche alternance | cybersécurité</p>
+                <p class="post-time">Il y a 5 h · 10 commentaires · 5 partages</p>
+            </div>
+        </div>
+        <div class="post-content">
+            <p>Bonjour à tous,</p>
+            <p>Je m’appelle Lucas Cordeilla, étudiant en 3ᵉ année de BUT Informatique à Montpellier, et je suis actuellement à la recherche d’une alternance dans le domaine de la cybersécurité et/ou de l’investigation numérique, idéalement à Montpellier ou dans ses environs.</p>
+            <p>🔍 Mon parcours et mes compétences :</p>
+            <p>◦ 22 semaines de stages dans 2 entreprise en tant qu’administrateur système et réseaux, où j’ai pu développer mes compétences en gestion d’infrastructures, supervision et sécurisation d’environnements IT.</p>
+            <p style="text-indent: 2em;">◦ Passionné d’OSINT et de sécurité offensive depuis plusieurs années, je consolide mes connaissances au travers de projets personnels, challenges techniques et veille constante sur les nouvelles menaces.</p>
+            <p style="text-indent: 2em;">◦ Fondateur d’une team de joueurs de CTF (Capture The Flag) et créateur d’un espace communautaire dédié à l’OSINT et à la sécurité informatique : j’anime des ateliers, je partage des ressources et j’encourage l’entraide entre passionnés pour monter en compétences collectivement.</p>
+            <p>💼 Ce que je recherche :</p>
+            <p>Une alternance pour ma 3ᵉ année de BUT Informatique, à partir de septembre 2025, dans une entreprise qui souhaite renforcer sa posture de sécurité et/ou ses capacités d’investigation numérique.</p>
+            <p>📂 Retrouvez mon travail et mes références :</p>
+            <p style="text-indent: 2em;">◦ Portfolio : [Lien vers mon portfolio]</p>
+            <p style="text-indent: 2em;">◦ CV complet : [Lien vers mon CV]</p>
+            <p>📩 Si vous êtes recruteurs et/ou intéréssé par mon profil n’hésitez pas à me contacter par message privé, par e-mail ou depuis la page contact de mon portfolio !</p>
+            <p>Merci par avance pour vos recommandations et partages !</p>
+            <p class="ping">#alternance #cybersécurité #investigation #OSINT #sécuritéinformatique #Montpellier #BUTInformatique #CTF #sécuritéoffensive #administrationsystèmes #recrutement #étudiants #cyberdéfense</p>
+            <p class="ping">@Anne DAUMET</p>
+        </div>
+        <div class="post-actions">
+            <div class="action-btn">
+                <img src="like.png" alt="Like icon" />
+                <span>J’aime</span>
+            </div>
+            <div class="action-btn">
+                <img src="commenter.png" alt="Comment icon" />
+                <span>Commenter</span>
+            </div>
+            <div class="action-btn">
+                <img src="partager.png" alt="Share icon" />
+                <span>Partager</span>
+            </div>
+            <div class="action-btn">
+                <img src="envoyer.png" alt="Send icon" />
+                <span>Répondre</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
